@@ -1,6 +1,6 @@
 # egxo.fyi
 
-![egxofyi](https://github.com/user-attachments/assets/28a42cd3-c0d1-4dbb-8a5a-6b9530baab80)
+![egxofyi](https://github.com/user-attachments/assets/073216d5-789f-46e7-82a5-8bdbfff3c375)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxo-fyi) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxo-fyi)
 
