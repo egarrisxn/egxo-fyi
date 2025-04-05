@@ -23,10 +23,10 @@ An example of how to set up the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-blog.git
+git clone https://github.com/egarrisxn/egxo-fyi.git
 
 # Navigate to the project directory
-cd your-blog
+cd egxo-fyi
 
 # Install dependencies
 pnpm install
