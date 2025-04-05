@@ -1,0 +1,16 @@
+README.md
+CHANGELOG.md
+pnpm-lock.yaml
+node_modules
+coverage
+public
+build
+dist
+out
+*.lock
+*.log
+.git
+.next
+.vscode
+.vercel
+.github

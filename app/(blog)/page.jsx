@@ -26,7 +26,7 @@ export default async function Home() {
     <main className='mx-auto my-4 max-w-6xl px-1 sm:px-4'>
       {/* Highlighted first blog post */}
       <section className='mb-6 sm:my-12'>
-        <Card className='sm:border-2 sm:p-1 sm:shadow-sm sm:shadow-green-400/80'>
+        <Card className='sm:border-2 sm:p-1 sm:shadow-xs sm:shadow-green-400/80'>
           <Image
             src={urlFor(firstBlog.coverImage).url()}
             alt='image'
@@ -35,10 +35,10 @@ export default async function Home() {
             className='mx-auto rounded-t-lg border object-cover md:h-[340px] lg:h-[460px] xl:h-[520px]'
           />
           <CardContent className='mt-4'>
-            <h2 className='line-clamp-1 text-xl font-bold md:text-4xl lg:text-5xl'>
+            <h2 className='line-clamp-1 text-xl font-bold md:text-3xl lg:text-4xl'>
               {firstBlog.title}
             </h2>
-            <p className='mt-2 line-clamp-1 text-gray-700 md:text-2xl lg:mt-3 lg:text-3xl dark:text-gray-400'>
+            <p className='mt-2 line-clamp-1 text-gray-700 md:text-xl lg:mt-3 lg:text-2xl dark:text-gray-400'>
               {firstBlog.smallDescription}
             </p>
             <Button asChild size='xl' className='mt-4 w-full lg:mt-6'>
@@ -48,12 +48,12 @@ export default async function Home() {
         </Card>
       </section>
 
-      <hr className='hidden h-1 bg-foreground md:block' />
+      <hr className='bg-foreground hidden h-1 md:block' />
 
       {/* Grid for remaining blog posts */}
       <section className='grid grid-cols-1 gap-6 md:my-12 md:grid-cols-2 2xl:gap-10'>
         {otherBlogs.map((blog, idx) => (
-          <Card key={idx} className='sm:border-2 sm:p-1 sm:shadow-sm sm:shadow-green-400/80'>
+          <Card key={idx} className='sm:border-2 sm:p-1 sm:shadow-xs sm:shadow-green-400/80'>
             <Image
               src={urlFor(blog.coverImage).url()}
               alt='image'

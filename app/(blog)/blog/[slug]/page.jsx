@@ -34,15 +34,15 @@ export default async function BlogPost({params}) {
       </nav>
       <article>
         <header>
-          <h2 className='block text-center text-xs font-semibold uppercase tracking-wide text-primary sm:text-base 2xl:text-lg'>
+          <h2 className='text-primary block text-center text-xs font-semibold tracking-wide uppercase sm:text-base 2xl:text-lg'>
             Spend a little time inside my head.
           </h2>
-          <h3 className='mb-1 mt-3 block text-center text-2xl font-bold leading-8 tracking-tight sm:text-3xl lg:text-4xl 2xl:text-5xl'>
+          <h3 className='mt-3 mb-1 block text-center text-2xl leading-10 font-bold tracking-tight sm:text-3xl lg:text-4xl 2xl:text-5xl'>
             {data.title}
           </h3>
-          <p className='font-semiboldd text-center text-xs tracking-wide sm:text-base 2xl:text-lg'>
+          {/* <p className='font-semiboldd text-center text-xs tracking-wide sm:text-base 2xl:text-lg'>
             {format(new Date(data.publishedAt), 'EEEE // MMMM dd yyyy')}
-          </p>
+          </p> */}
         </header>
         <figure>
           <Image
@@ -50,10 +50,10 @@ export default async function BlogPost({params}) {
             alt='image'
             width={940}
             height={420}
-            className='mx-auto mt-8 rounded-lg border object-cover shadow shadow-green-500'
+            className='mx-auto mt-8 rounded-lg border object-cover shadow-sm shadow-green-500'
           />
         </figure>
-        <div className='prose prose-lg prose-blue mx-auto mt-12 max-w-[800px] xl:prose-xl 2xl:prose-2xl dark:prose-invert prose-a:text-primary prose-li:marker:text-primary'>
+        <div className='prose prose-lg prose-blue xl:prose-xl 2xl:prose-2xl dark:prose-invert prose-a:text-primary prose-li:marker:text-primary mx-auto mt-12 max-w-[800px]'>
           <PortableText value={data.content} />
         </div>
         <Button
@@ -63,7 +63,7 @@ export default async function BlogPost({params}) {
         >
           <Link href='/'>Return</Link>
         </Button>
-        <div className='mx-auto my-12 w-fit rounded-lg border p-6 text-center text-foreground shadow xl:p-12 2xl:p-16 2xl:text-xl'>
+        <div className='text-foreground mx-auto my-12 w-fit rounded-lg border p-6 text-center shadow-sm xl:p-12 2xl:p-16 2xl:text-xl'>
           If you would like to support my work,
           <br />
           <a
