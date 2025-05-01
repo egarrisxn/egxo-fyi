@@ -1,8 +1,14 @@
 # egxo.fyi
 
-![twitter-image](https://github.com/user-attachments/assets/4a85c879-e6d1-47a8-bc57-c845b3164321)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxo-fyi)
+![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxo-fyi)
+[![pnpm](https://img.shields.io/badge/package%20manager-pnpm-blueviolet)](https://pnpm.io)
+[![Next.js](https://img.shields.io/badge/Next.js-v15-black?logo=next.js)](https://nextjs.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-blue?logo=tailwindcss)](https://tailwindcss.com)
+[![Vercel](https://img.shields.io/badge/Vercel-deployed-brightgreen?logo=vercel)](https://international-worldwide.vercel.app)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxo-fyi) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxo-fyi)
+![twitter-image](https://github.com/user-attachments/assets/4a85c879-e6d1-47a8-bc57-c845b3164321)
 
 ## Overview
 
