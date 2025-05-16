@@ -4,7 +4,7 @@ const HighlightDecorator = (props) => (
   <span style={{backgroundColor: 'yellow'}}>{props.children}</span>
 )
 
-export default {
+const blockContent = {
   name: 'blockContent',
   title: 'Block Content',
   type: 'array',
@@ -77,3 +77,5 @@ export default {
     },
   ],
 }
+
+export default blockContent

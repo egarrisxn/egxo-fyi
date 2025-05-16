@@ -12,7 +12,7 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.config({
     extends: ['next/core-web-vitals', 'prettier'],
-    rules: {'import/no-anonymous-default-export': 'off'},
+    rules: {},
   }),
   {
     ignores: ['**/node_modules/', '.git/', '.vscode/', '.next/', 'public/'],
