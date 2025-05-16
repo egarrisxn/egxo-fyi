@@ -20,11 +20,29 @@ export const metadata = {
     default: 'egxo.fyi',
   },
   description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
+  applicationName: 'egxo.fyi',
   referrer: 'origin-when-cross-origin',
   keywords: [
     'ethan_g, eg, EG, ethan-g, egarrisxn, egxo.fyi, ethangarrison, ethan-garrison, ethan_garrison, blog, nextjs, next, next14, sanity, sanityio, shadcn-ui, shadcn/ui, tailwindcss, javascript, react',
   ],
   creator: 'https://egxo.dev.',
+  icons: {
+    icon: {
+      url: '/icon.png',
+      sizes: '192x192',
+      type: 'image/png',
+    },
+    apple: {
+      url: '/apple-icon.png',
+      sizes: '180x180',
+      type: 'image/png',
+    },
+    other: {
+      rel: 'icon',
+      url: '/icon.svg',
+      type: 'image/svg+xml',
+    },
+  },
   openGraph: {
     title: 'egxo.fyi',
     description: 'SPEND A LITTLE TIME INSIDE MY HEAD.',
@@ -52,7 +70,9 @@ export const viewport = {
 export default function RootLayout({children}) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden overscroll-none scroll-smooth font-sans antialiased`}
+      >
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
