@@ -71,7 +71,7 @@ export default function RootLayout({children}) {
   return (
     <html lang='en' suppressHydrationWarning>
       <head>
-        <meta name="apple-mobile-web-app-title" content='egxo.fyi' />
+        <meta name='apple-mobile-web-app-title' content='egxo.fyi' />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden overscroll-none scroll-smooth font-sans antialiased`}
