@@ -8,7 +8,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-blue?logo=tailwindcss)](https://tailwindcss.com)
 [![Vercel](https://img.shields.io/badge/Vercel-deployed-brightgreen?logo=vercel)](https://international-worldwide.vercel.app)
 
-![twitter-image](https://github.com/user-attachments/assets/4a85c879-e6d1-47a8-bc57-c845b3164321)
+![egxofyi](https://github.com/user-attachments/assets/fd7bd617-6574-4983-bf35-887359d05482)
 
 ## Overview
 
