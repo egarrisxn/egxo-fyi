@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import {format} from 'date-fns'
 import {client, urlFor} from '../../../../lib/sanityClient'
 import {Button} from '../../../../components/ui/button'
 import {PortableText} from '@portabletext/react'
@@ -53,13 +52,13 @@ export default async function BlogPost({params}) {
             className='mx-auto mt-8 rounded-lg border object-cover shadow-sm shadow-green-500'
           />
         </figure>
-        <div className='prose prose-lg prose-blue xl:prose-xl 2xl:prose-2xl dark:prose-invert prose-a:text-primary prose-li:marker:text-primary mx-auto mt-12 max-w-[800px]'>
+        <div className='prose prose-lg prose-blue xl:prose-xl 2xl:prose-2xl dark:prose-invert prose-a:text-primary prose-li:marker:text-primary mx-auto mt-12 max-w-200'>
           <PortableText value={data.content} />
         </div>
         <Button
           asChild
           variant='secondary'
-          className='mx-auto my-12 flex w-80 lg:w-80 xl:w-96 2xl:w-[32rem]'
+          className='mx-auto my-12 flex w-80 lg:w-80 xl:w-96 2xl:w-lg'
         >
           <Link href='/'>Return</Link>
         </Button>
