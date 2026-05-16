@@ -8,7 +8,6 @@ const eslintConfig = defineConfig([
   ...nextTs,
   {
     rules: {
-      // '@typescript-eslint/no-explicit-any': 'off',
       '@next/next/no-img-element': 'off',
     },
   },
@@ -16,6 +15,10 @@ const eslintConfig = defineConfig([
     '.next/**',
     '.git/**',
     '.vscode/**',
+    '.vercel/**',
+    'coverage/**',
+    'node_modules/**',
+    'dist/**',
     'public/**',
     'out/**',
     'build/**',
